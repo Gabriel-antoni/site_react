@@ -1,0 +1,20 @@
+#header {
+  background-color: rgb(159, 180, 175);
+  color: white;
+  margin: -10px;
+  padding: 20px;
+  border: 3px solid rgb(122, 101, 101);
+}
+
+nav {
+  width: 50%;
+  margin-left: 200px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  margin-left: 50px;
+  display: inline-block;
+}
