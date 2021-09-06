@@ -1,13 +1,19 @@
 import React, { Component } from "react";
 import Menu from "../Header/header";
+<<<<<<< HEAD
 import Modelo from "../../assents/imagem/modelo1.jpg";
+=======
+>>>>>>> 16851bbc42f76575200f37e165b6866b21ab7b6e
 import Gmail from "../../assents/imagem/Gmail.png";
 import Facebook from "../../assents/imagem/facebook.png";
 import Twitter from "../../assents/imagem/twitter.png";
 import Whatsapp from "../../assents/imagem/whatsapp.png";
 import Instagram from "../../assents/imagem/instagram.png"
 import Github from "../../assents/imagem/github.png";
+<<<<<<< HEAD
 import Footer from "../footer/index";
+=======
+>>>>>>> 16851bbc42f76575200f37e165b6866b21ab7b6e
 
 import "./home.css";
 
