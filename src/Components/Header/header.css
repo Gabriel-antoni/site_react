@@ -1,14 +1,14 @@
 #header {
   background-color: rgb(159, 180, 175);
   color: white;
-  margin: -10px;
   padding: 20px;
   border: 3px solid rgb(122, 101, 101);
 }
 
 nav {
-  width: 50%;
+  width: 80%;
   margin-left: 200px;
+  align-items: center;
 }
 
 a {
@@ -17,4 +17,59 @@ a {
   padding: 10px 20px;
   margin-left: 50px;
   display: inline-block;
+}
+
+/*resposive*/
+
+@media (max-width:1102px) {
+  a {
+    padding: 5px 15px;
+  }
+}
+
+@media (max-width:1022px) {
+  a {
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width:942px) {
+  a {
+    padding: 5px 5px;
+  }
+}
+
+@media (max-width:986px) {
+  a {
+    padding: 5px 0px;
+  }
+}
+
+@media (max-width: 810px){
+  nav {
+    margin-left: 180px;
+    width: 70%;
+  }
+}
+
+@media (max-width: 748px){
+  nav {
+    margin-left: 160px;
+    width: 50%;
+  }
+
+  a{
+    margin-left:30px ;
+  }
+}
+
+@media (max-width: 622px){
+  nav {
+    margin-left: 125px;
+    width: 50%;
+  }
+
+  a{
+    margin: left 20px ;
+  }
 }
